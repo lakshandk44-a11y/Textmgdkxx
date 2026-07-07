@@ -16,9 +16,9 @@ BANNER = f"""
 # ========== TWILIO CONFIG ==========
 # මේ credentials වෙනුවට ඔයාගේ Twilio Account details දාන්න
 # හරි නැත්නම් environment variables විදියට set කරන්න
-TWILIO_ACCOUNT_SID = os.environ.get('TWILIO_SID', '')      # Set this or edit below
-TWILIO_AUTH_TOKEN  = os.environ.get('TWILIO_AUTH', '')     # Set this or edit below
-TWILIO_PHONE_NUMBER = os.environ.get('TWILIO_PHONE', '')   # Set this or edit below
+TWILIO_ACCOUNT_SID = "ACbe7ec6b3480c623f0038cd466bfc8de8"
+TWILIO_AUTH_TOKEN  = "b6f7e783ed0135cca2ebd3d067decb58"
+TWILIO_PHONE_NUMBER = "+12762761630"
 # ===================================
 
 def clear_screen():
